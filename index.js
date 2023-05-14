@@ -4,10 +4,10 @@ const express = require('express')
 const app = express()
 
 const db = mysql.createConnection({
-    host    :   'localhost',
-    user    :   'root',
-    password:   'Daniel2001',
-    database:   'cors'
+    host    :   'bigzezx7jsqm3yvwhkqn-mysql.services.clever-cloud.com',
+    user    :   'ulpaofpy86tqrl0y',
+    password:   'y0tUQSjx4ZJ7PrJJerqy',
+    database:   'bigzezx7jsqm3yvwhkqn'
 })
 
 db.connect((err)=>{
